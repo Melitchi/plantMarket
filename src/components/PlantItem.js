@@ -5,7 +5,7 @@ const PlantItem = ({name, cover, id, light,water}) =>{
 
 
     return (
-        <li key={id} className="lmj-plant-item" >
+        <li className="lmj-plant-item" >
             <img src={cover} alt={`${name}-photo`} className="lmj-plant-item-cover"/>
             {name}
             <CareScale careType='light' scaleValue={light} />
